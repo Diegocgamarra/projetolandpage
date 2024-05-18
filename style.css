@@ -1,0 +1,129 @@
+*{
+  margin: 0px;
+  font-family: inter;
+}
+#logo{
+  padding-left: 75px;
+  padding-top: 50px;
+}
+#titulo-menusuperior{
+  margin-left: 150px;
+  margin-top: 75px;
+  color: white;
+}
+#texto-menusuperior{
+  color: white;
+  margin-top: 25px;
+  margin-left: 150px;
+  padding-bottom: 200px;
+}
+#menu-superior{
+  background-image: url(./images/bg-hero.svg);
+
+}
+#menu-info{
+  background-color: #EAECE5;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+
+.icon{
+  padding: 50px 0px 50px 100px;
+}
+.texto-info{
+  display: flex;
+  align-items: center;
+  padding: 25px;
+}
+
+#depo{
+  display: flex;
+  grid-auto-flow: column;
+  columns: auto;
+  justify-items: center;
+}
+#video{
+  margin: 75px 25px 100px 100px;
+}
+#titulo-video{
+  color: #247BA0;
+  margin-top: 75px;
+}
+
+#carrossel{
+  background-color: #247BA0;
+  padding: 40px 0px 40px 0px;
+}
+#titulocarrossel{
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+#cards{
+  display: grid;
+  grid-auto-flow: column;
+}
+.card{
+  margin-left: 40px;
+}
+
+#setaesquerda{
+  display: none;
+}
+
+#card3{
+  display: none;
+}
+.setas{
+  margin-top: 35%;
+  cursor: pointer;
+}
+.setas:hover{
+  transform: translateY(-7px);
+  transition-duration: 0.5s;
+}
+
+#formulario{
+  padding-top: 40px;
+text-align: center;
+
+}
+#tituloformulario{
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 50px;
+}
+input{
+  width: 413px;
+  height: 53px;
+  border-radius: 8px;
+  background-color: #EAECE5;
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px;
+  border: 0px;
+}
+button{
+  background-color:  #247BA0;
+  color: #EAECE5;
+  border: 0px;
+  border-radius: 8px;
+  width: 300px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  box-shadow: 0px 20px 10px 0px #0933459f;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #093345;
+  transform: translateY(5px);
+  box-shadow: none;
+  transition-duration: 0.5s;
+
+}
